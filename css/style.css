@@ -34,12 +34,11 @@
 }
 /* flex section start */
 .flexSection{
-    padding: 50px 0;
+    padding: 100px 0;
     display: flex;
     justify-content: space-between;
 }
 .flex-left{
-    background-color: aquamarine;
     width: 75%;
 }
 .F-1{
@@ -49,7 +48,7 @@
     width: 300px;
     height: 270px;
     border: 1px solid green;
-    margin: 27px;
+    margin: 17px;
 }
 .text{
     color: white;
@@ -67,17 +66,13 @@
     justify-content: end;
     align-items: end;
 }
-.flex-right{
-    width: 25%;
-    padding: 0px 17px;
-}
 /* second flex section start */
 .F-2{
     display: flex;
 }
 .grow{
     border: 1px solid green;
-    margin: 27px;
+    margin: 17px;
     padding: 17px;
     display: flex;
     flex-grow: 0;
@@ -86,4 +81,55 @@
 .grow-t{
     display: flex;
     flex-grow: 2;
+}
+/* ................ */
+.F-3{
+    display: flex;
+}
+.flex-m{
+    width: 300px;
+    height: 90px;
+    border: 1px solid green;
+    margin: 17px;
+    padding: 17px;
+}
+.flex-m p{
+    border: 1px solid yellow;
+    background-color: aqua;
+    padding: 7px;
+    display: flex;
+}
+.flx-item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flx-item2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flx-item-c{
+    justify-content: center;
+    align-items: center; 
+}
+.flx-item-e{
+    justify-content: end;
+    align-items: end;
+}
+/* right section */
+.flex-right{
+    width: 25%;
+    padding: 0px 17px;
+    border-left: 3px solid red;
+    margin-left: 11px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.flex-right h3{
+    padding: 13px 0;
+}
+.flex-right p{
+    padding: 13px 0;
+    font-size: small;
+    padding: 17px 0;
 }
