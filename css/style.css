@@ -111,7 +111,7 @@
 }
 .flx-item-c{
     justify-content: center;
-    align-items: center; 
+    align-items: center ; 
 }
 .flx-item-e{
     justify-content: end;
@@ -132,4 +132,21 @@
     padding: 13px 0;
     font-size: small;
     padding: 17px 0;
+}
+/* foooter section start */
+.footerSection{
+    background-color: black;
+    padding: 27px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+.footerSection a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-bottom: 1px solid ;
+    padding: 7px 17px;
+    margin-left: 11px;
+    display: inline-block;
 }
